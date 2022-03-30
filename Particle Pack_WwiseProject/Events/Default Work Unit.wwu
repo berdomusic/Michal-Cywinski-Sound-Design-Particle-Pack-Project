@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7592E3B9-0072-4091-944C-FB19F539C13D}" SchemaVersion="103">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{7592E3B9-0072-4091-944C-FB19F539C13D}" PersistMode="Standalone">
+			<ChildrenList>
+				<Folder Name="Main" ID="{445F22EF-B7CB-4581-B73F-8C0DB588E982}" ShortID="816351046">
+					<ChildrenList>
+						<Folder Name="Player" ID="{5A57446E-95FC-4B82-B8F0-9A27247DCD82}" ShortID="254684130">
+							<ChildrenList>
+								<Event Name="Player_Footstep" ID="{B2AA0ACA-AA7C-4721-8829-BBE3B08D5D81}">
+									<ChildrenList>
+										<Action Name="" ID="{458E9147-D5EE-44F6-8B92-BB30A3D442A2}" ShortID="987436554">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Footsteps" ID="{77915FA2-FB07-46CB-853A-8FD2469A68F6}" WorkUnitID="{3E4499BE-BB41-469C-9D66-59F60D1DCF70}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="SFXs" ID="{6AA94807-6F47-471B-9A7D-DF6AB493B72B}" ShortID="431718098">
+							<ChildrenList>
+								<Event Name="Play_Dissolve" ID="{123EB156-97C0-45B4-BC67-8D08754FC343}">
+									<ChildrenList>
+										<Action Name="" ID="{B8BB91CB-EE76-4A8E-A973-54EC3C1FE5EB}" ShortID="183664884">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Dissolve" ID="{DB66CA47-7B8B-4BE4-AFDF-792F335BA695}" WorkUnitID="{3E4499BE-BB41-469C-9D66-59F60D1DCF70}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_Respawn" ID="{532E37D4-AFA7-40C9-9A1D-74C290120C0C}">
+									<ChildrenList>
+										<Action Name="" ID="{1691A9B8-4736-4E05-B52F-851FA6EBD0C3}" ShortID="276403357">
+											<PropertyList>
+												<Property Name="ActionType" Type="int16" Value="2"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Respawn" ID="{01790876-CD18-47C3-BB86-E7D2C0ED66C5}" WorkUnitID="{3E4499BE-BB41-469C-9D66-59F60D1DCF70}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{5FEA676D-5CF3-4575-8854-7CA5872C7191}" ShortID="285782847">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Respawn" ID="{01790876-CD18-47C3-BB86-E7D2C0ED66C5}" WorkUnitID="{3E4499BE-BB41-469C-9D66-59F60D1DCF70}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_EnergyExplosion" ID="{0F724779-C455-4E36-A68F-FC513499EC34}">
+									<ChildrenList>
+										<Action Name="" ID="{2601CEF1-6B4A-40BD-923E-79925C1D243E}" ShortID="655711939">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="EnergyExplosion" ID="{29F05C4D-E266-4FB2-A8FB-AFAF4920DD98}" WorkUnitID="{3E4499BE-BB41-469C-9D66-59F60D1DCF70}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_BigExplosion" ID="{90EF95F4-F44D-4E4C-ACBC-41AF5E63A5A1}">
+									<ChildrenList>
+										<Action Name="" ID="{2046C983-127E-4E43-9B99-8DFD7372EB36}" ShortID="424069846">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="BigExplosion" ID="{9399D7DB-1C58-4CD9-B220-00250F1796E7}" WorkUnitID="{3E4499BE-BB41-469C-9D66-59F60D1DCF70}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_FireExplosion" ID="{D1CBEF8E-377E-49A1-A250-0D3CBDE108B1}">
+									<ChildrenList>
+										<Action Name="" ID="{08FE9563-C1A4-417D-BE86-1A358ACDC2C5}" ShortID="609823362">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="FireExplosion" ID="{DC072074-B108-4DF6-B377-9471B8FFBA4F}" WorkUnitID="{3E4499BE-BB41-469C-9D66-59F60D1DCF70}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_FlameThrower" ID="{2611C77D-8614-40F8-8272-F06F05898D49}">
+									<ChildrenList>
+										<Action Name="" ID="{2F036057-0F31-4815-93E8-5D0D10352F09}" ShortID="651042104">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="FlameThrower" ID="{739023E8-7497-44C3-9619-BD6980EA693A}" WorkUnitID="{3E4499BE-BB41-469C-9D66-59F60D1DCF70}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_RocketTrail" ID="{9B658E52-E84E-406D-B54D-F5B903FFB131}">
+									<ChildrenList>
+										<Action Name="" ID="{6A8A6559-411C-4B3F-9D14-070BFE868946}" ShortID="799783840">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="RocketTrail" ID="{7A4FBAE7-2A18-458B-9DB1-263DA4E0D335}" WorkUnitID="{3E4499BE-BB41-469C-9D66-59F60D1DCF70}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_EarthShatter" ID="{41DA017A-A43C-4AED-8CAF-81033A215DA0}">
+									<ChildrenList>
+										<Action Name="" ID="{E96C64A4-1644-45D7-BBCD-7214CEFABC3F}" ShortID="596616269">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="EarthShatter" ID="{A76EB95A-117A-44C8-9005-B1DDF8218209}" WorkUnitID="{3E4499BE-BB41-469C-9D66-59F60D1DCF70}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_IceLanceFire" ID="{6C2BF993-2506-415C-98B7-DC0420D2AACF}">
+									<ChildrenList>
+										<Action Name="" ID="{C9546B10-495E-41BC-A459-86058804DEE7}" ShortID="1013641828">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="IceLanceFire" ID="{E3240D08-D74A-4132-AF75-B2B290B95ED2}" WorkUnitID="{3E4499BE-BB41-469C-9D66-59F60D1DCF70}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Play_IceLanceHit" ID="{C7E55AF9-2FDA-4902-A00E-10C491669E73}">
+									<ChildrenList>
+										<Action Name="" ID="{54B0032D-C13F-4D45-9E0D-3DA9422566AE}" ShortID="26715453">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="IceLanceHit" ID="{AF6AA67F-9DB3-4298-AE7D-7761311DF888}" WorkUnitID="{3E4499BE-BB41-469C-9D66-59F60D1DCF70}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Play_MusicLoop" ID="{52671F97-BF52-4CCF-A4C8-0241F150E004}">
+							<ChildrenList>
+								<Action Name="" ID="{B88297E5-B06D-41BF-B956-38386E6A4B21}" ShortID="904611043">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MusicLoop" ID="{4FBAFDE2-D7C7-4903-B9BF-4BCCE52E1F30}" WorkUnitID="{FD0BD07A-D63C-428F-A0E3-C33FCCC8DCCB}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

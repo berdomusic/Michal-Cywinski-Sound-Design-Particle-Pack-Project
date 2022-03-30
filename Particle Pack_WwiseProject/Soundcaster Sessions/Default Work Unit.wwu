@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{455F534B-8D8F-4F23-89D2-8751FEEEAB69}" SchemaVersion="103">
+	<SoundcasterSessions>
+		<WorkUnit Name="Default Work Unit" ID="{455F534B-8D8F-4F23-89D2-8751FEEEAB69}" PersistMode="Standalone">
+			<ChildrenList>
+				<SoundcasterSession Name="New Soundcaster Session" ID="{5AEEEC49-E1E6-42C2-BBFA-E7B0C7F4BCA7}">
+					<ModuleList>
+						<Module>
+							<ObjectRef Name="Play_IceLanceHit" ID="{C7E55AF9-2FDA-4902-A00E-10C491669E73}" WorkUnitID="{7592E3B9-0072-4091-944C-FB19F539C13D}"/>
+							<Position X="0" Y="0"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_BigExplosion" ID="{90EF95F4-F44D-4E4C-ACBC-41AF5E63A5A1}" WorkUnitID="{7592E3B9-0072-4091-944C-FB19F539C13D}"/>
+							<Position X="1" Y="0"/>
+						</Module>
+					</ModuleList>
+					<RTPCValueList ShowAll="true">
+						<RTPCValue>
+							<GameParameterRef Name="ToeSpeed" ID="{6C92985F-B8F0-4919-8AF8-690597E1EB8E}"/>
+							<Value>2.0718232044199</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="EventVolume" ID="{586718C3-9CBB-499D-B12B-438C2E64BDDF}"/>
+							<Value>1</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="TimeStretch" ID="{98CD59F8-2D26-4FFE-A87A-BD340836CD3F}"/>
+							<Value>1</Value>
+						</RTPCValue>
+					</RTPCValueList>
+					<CurrentStateList ShowAll="true"/>
+					<CurrentSwitchList ShowAll="true"/>
+				</SoundcasterSession>
+			</ChildrenList>
+		</WorkUnit>
+	</SoundcasterSessions>
+</WwiseDocument>

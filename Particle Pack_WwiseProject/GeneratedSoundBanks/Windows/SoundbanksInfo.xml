@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
+	<RootPaths>
+		<ProjectRoot>C:\Projekty Unity\Particle Pack\Particle Pack_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Projekty Unity\Particle Pack\Particle Pack_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Projekty Unity\Particle Pack\Particle Pack_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Projekty Unity\Particle Pack\Particle Pack_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX" Hash="1562687051">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+			<IncludedAuxBusses>
+				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+			</IncludedAuxBusses>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX" Hash="1295168927">
+			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
+			<ShortName>Main</ShortName>
+			<Path>Main.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1754114309" Name="Play_BigExplosion" ObjectPath="\Events\Default Work Unit\Main\SFXs\Play_BigExplosion" MaxAttenuation="200.000000" DurationType="OneShot" DurationMin="2.819640" DurationMax="2.819640">
+					<IncludedMemoryFiles>
+						<File Id="285980132" Language="SFX">
+							<ShortName>DoorSlam1.WAV</ShortName>
+							<Path>SFX\DoorSlam1_F023612F.wem</Path>
+						</File>
+						<File Id="750036658" Language="SFX">
+							<ShortName>MetalPlateHit.WAV</ShortName>
+							<Path>SFX\MetalPlateHit_F454D8AB.wem</Path>
+						</File>
+						<File Id="834237050" Language="SFX">
+							<ShortName>FrogLike.wav</ShortName>
+							<Path>SFX\FrogLike_8A3DA978.wem</Path>
+						</File>
+						<File Id="1005669582" Language="SFX">
+							<ShortName>Boom.wav</ShortName>
+							<Path>SFX\Boom_9D0E2A85.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="4046041991" Name="Play_Dissolve" ObjectPath="\Events\Default Work Unit\Main\SFXs\Play_Dissolve" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="10.655531" DurationMax="10.655531">
+					<IncludedMemoryFiles>
+						<File Id="87594905" Language="SFX">
+							<ShortName>MoogCrackles.wav</ShortName>
+							<Path>SFX\MoogCrackles_F8FB1C37.wem</Path>
+						</File>
+						<File Id="191133181" Language="SFX">
+							<ShortName>DFAMCrackles.wav</ShortName>
+							<Path>SFX\DFAMCrackles_5D68B5F1.wem</Path>
+						</File>
+						<File Id="285728457" Language="SFX">
+							<ShortName>Froggy.wav</ShortName>
+							<Path>SFX\Froggy_9D0E2A85.wem</Path>
+						</File>
+						<File Id="975314822" Language="SFX">
+							<ShortName>DFAMNoise.wav</ShortName>
+							<Path>SFX\DFAMNoise_40E698FC.wem</Path>
+						</File>
+						<File Id="1012007422" Language="SFX">
+							<ShortName>ClickCreak.wav</ShortName>
+							<Path>SFX\ClickCreak_56578704.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="874469" Name="Play_EarthShatter" ObjectPath="\Events\Default Work Unit\Main\SFXs\Play_EarthShatter" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="8.781282" DurationMax="8.781282">
+					<IncludedMemoryFiles>
+						<File Id="228939752" Language="SFX">
+							<ShortName>CoffeeMachineFoam.wav</ShortName>
+							<Path>SFX\CoffeeMachineFoam_9D0E2A85.wem</Path>
+						</File>
+						<File Id="395367216" Language="SFX">
+							<ShortName>BoilingWater.wav</ShortName>
+							<Path>SFX\BoilingWater_CE1BB41B.wem</Path>
+						</File>
+						<File Id="468330679" Language="SFX">
+							<ShortName>CoffeeMachine.wav</ShortName>
+							<Path>SFX\CoffeeMachine_9D0E2A85.wem</Path>
+						</File>
+						<File Id="598467828" Language="SFX">
+							<ShortName>MoogRumble.wav</ShortName>
+							<Path>SFX\MoogRumble_BACBD72A.wem</Path>
+						</File>
+						<File Id="704346518" Language="SFX">
+							<ShortName>BulletRollingOnWood.WAV</ShortName>
+							<Path>SFX\BulletRollingOnWood_390F40F7.wem</Path>
+						</File>
+						<File Id="985587795" Language="SFX">
+							<ShortName>BagCreaks.wav</ShortName>
+							<Path>SFX\BagCreaks_9D0E2A85.wem</Path>
+						</File>
+						<File Id="1003615171" Language="SFX">
+							<ShortName>LowFreqHowl.wav</ShortName>
+							<Path>SFX\LowFreqHowl_C32A97B8.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2543619195" Name="Play_EnergyExplosion" ObjectPath="\Events\Default Work Unit\Main\SFXs\Play_EnergyExplosion" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="5.141459" DurationMax="5.141459">
+					<IncludedMemoryFiles>
+						<File Id="24834373" Language="SFX">
+							<ShortName>Tail.wav</ShortName>
+							<Path>SFX\Tail_10C8A594.wem</Path>
+						</File>
+						<File Id="494631234" Language="SFX">
+							<ShortName>LeavesRustleDobry.WAV</ShortName>
+							<Path>SFX\LeavesRustleDobry_9D6F2C09.wem</Path>
+						</File>
+						<File Id="975292333" Language="SFX">
+							<ShortName>DoorSlam1.WAV</ShortName>
+							<Path>SFX\DoorSlam1_FB950BAF.wem</Path>
+						</File>
+						<File Id="1005669582" Language="SFX">
+							<ShortName>Boom.wav</ShortName>
+							<Path>SFX\Boom_9D0E2A85.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2993786511" Name="Play_FireExplosion" ObjectPath="\Events\Default Work Unit\Main\SFXs\Play_FireExplosion" MaxAttenuation="20.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="871104638" Language="SFX">
+							<ShortName>Gas.wav</ShortName>
+							<Path>SFX\Gas_DB49FE22.wem</Path>
+						</File>
+						<File Id="987376831" Language="SFX">
+							<ShortName>Gas.wav</ShortName>
+							<Path>SFX\Gas_59B546FA.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2844775840" Name="Play_FlameThrower" ObjectPath="\Events\Default Work Unit\Main\SFXs\Play_FlameThrower" MaxAttenuation="30.000000" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="153515625" Language="SFX">
+							<ShortName>FlameThrower.wav</ShortName>
+							<Path>SFX\FlameThrower_2040A250.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="3644136192" Name="Play_IceLanceFire" ObjectPath="\Events\Default Work Unit\Main\SFXs\Play_IceLanceFire" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.792764" DurationMax="1.125679">
+					<IncludedMemoryFiles>
+						<File Id="10059032" Language="SFX">
+							<ShortName>Tscht1.wav</ShortName>
+							<Path>SFX\Tscht1_9D0E2A85.wem</Path>
+						</File>
+						<File Id="497135524" Language="SFX">
+							<ShortName>Tscht2.wav</ShortName>
+							<Path>SFX\Tscht2_9D0E2A85.wem</Path>
+						</File>
+						<File Id="863490440" Language="SFX">
+							<ShortName>GongColl.wav</ShortName>
+							<Path>SFX\GongColl_7C18C88B.wem</Path>
+						</File>
+						<File Id="1017443450" Language="SFX">
+							<ShortName>Moog.wav</ShortName>
+							<Path>SFX\Moog_9D0E2A85.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="350955371" Name="Play_IceLanceHit" ObjectPath="\Events\Default Work Unit\Main\SFXs\Play_IceLanceHit" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="0.431135" DurationMax="1.188178">
+					<IncludedMemoryFiles>
+						<File Id="120763150" Language="SFX">
+							<ShortName>BulletImpactConcrete1.wav</ShortName>
+							<Path>SFX\BulletImpactConcrete1_19FA310B.wem</Path>
+						</File>
+						<File Id="191502595" Language="SFX">
+							<ShortName>BulletImpactConcrete3.wav</ShortName>
+							<Path>SFX\BulletImpactConcrete3_2AD0108E.wem</Path>
+						</File>
+						<File Id="848959509" Language="SFX">
+							<ShortName>BulletImpactConcrete4.wav</ShortName>
+							<Path>SFX\BulletImpactConcrete4_1D08448C.wem</Path>
+						</File>
+						<File Id="926962125" Language="SFX">
+							<ShortName>BulletImpactConcrete2.wav</ShortName>
+							<Path>SFX\BulletImpactConcrete2_AA062F7A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="737790609" Name="Play_MusicLoop" ObjectPath="\Events\Default Work Unit\Main\Play_MusicLoop" DurationType="Infinite">
+					<IncludedMemoryFiles>
+						<File Id="691181919" Language="SFX">
+							<ShortName>DFAM.wav</ShortName>
+							<Path>SFX\DFAM_D79FB2B7.wem</Path>
+						</File>
+						<File Id="973131445" Language="SFX">
+							<ShortName>Kick.wav</ShortName>
+							<Path>SFX\Kick_D79FB2B7.wem</Path>
+						</File>
+						<File Id="988606981" Language="SFX">
+							<ShortName>MoogHigh.wav</ShortName>
+							<Path>SFX\MoogHigh_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1009793064" Language="SFX">
+							<ShortName>Pad.wav</ShortName>
+							<Path>SFX\Pad_D79FB2B7.wem</Path>
+						</File>
+						<File Id="1038689934" Language="SFX">
+							<ShortName>MoogHigh2.wav</ShortName>
+							<Path>SFX\MoogHigh2_D79FB2B7.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+				</Event>
+				<Event Id="365318234" Name="Play_Respawn" ObjectPath="\Events\Default Work Unit\Main\SFXs\Play_Respawn" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="5.896924" DurationMax="5.896924">
+					<IncludedMemoryFiles>
+						<File Id="569149924" Language="SFX">
+							<ShortName>RespawnCrackle.wav</ShortName>
+							<Path>SFX\RespawnCrackle_9D0E2A85.wem</Path>
+						</File>
+						<File Id="910086259" Language="SFX">
+							<ShortName>RespawnLFO.wav</ShortName>
+							<Path>SFX\RespawnLFO_9D0E2A85.wem</Path>
+						</File>
+						<File Id="1051341803" Language="SFX">
+							<ShortName>RespawnSynth.wav</ShortName>
+							<Path>SFX\RespawnSynth_F46B2F1A.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="4019006302" Name="Play_RocketTrail" ObjectPath="\Events\Default Work Unit\Main\SFXs\Play_RocketTrail" MaxAttenuation="80.000000" DurationType="OneShot" DurationMin="6.592640" DurationMax="6.592640">
+					<IncludedMemoryFiles>
+						<File Id="813787386" Language="SFX">
+							<ShortName>LaundryChorus.wav</ShortName>
+							<Path>SFX\LaundryChorus_B2A13D51.wem</Path>
+						</File>
+						<File Id="893838099" Language="SFX">
+							<ShortName>StringRumble.wav</ShortName>
+							<Path>SFX\StringRumble_E2F36EFD.wem</Path>
+						</File>
+						<File Id="934973050" Language="SFX">
+							<ShortName>Boom.wav</ShortName>
+							<Path>SFX\Boom_95705F23.wem</Path>
+						</File>
+						<File Id="951864413" Language="SFX">
+							<ShortName>Gas.wav</ShortName>
+							<Path>SFX\Gas_2A42CED8.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
+				</Event>
+				<Event Id="2453392179" Name="Player_Footstep" ObjectPath="\Events\Default Work Unit\Main\Player\Player_Footstep" DurationType="OneShot" DurationMin="0.128514" DurationMax="0.196617">
+					<IncludedMemoryFiles>
+						<File Id="330998507" Language="SFX">
+							<ShortName>FootstepTile2.wav</ShortName>
+							<Path>SFX\FootstepTile2_9D0E2A85.wem</Path>
+						</File>
+						<File Id="884178785" Language="SFX">
+							<ShortName>FootstepTile1.wav</ShortName>
+							<Path>SFX\FootstepTile1_9D0E2A85.wem</Path>
+						</File>
+					</IncludedMemoryFiles>
+					<AuxBusSends>
+						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
+					</AuxBusSends>
+				</Event>
+			</IncludedEvents>
+			<GameParameters>
+				<GameParameter Id="247465997" Name="EventVolume" ObjectPath="\Game Parameters\Default Work Unit\EventVolume"/>
+				<GameParameter Id="364113256" Name="ToeSpeed" ObjectPath="\Game Parameters\Default Work Unit\ToeSpeed"/>
+				<GameParameter Id="2409030233" Name="TimeStretch" ObjectPath="\Game Parameters\Default Work Unit\TimeStretch"/>
+			</GameParameters>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{605BFD92-E38E-4955-A428-A756A7C8005B}" SchemaVersion="103">
+	<GameParameters>
+		<WorkUnit Name="Default Work Unit" ID="{605BFD92-E38E-4955-A428-A756A7C8005B}" PersistMode="Standalone">
+			<ChildrenList>
+				<GameParameter Name="EventVolume" ID="{586718C3-9CBB-499D-B12B-438C2E64BDDF}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="TimeStretch" ID="{98CD59F8-2D26-4FFE-A87A-BD340836CD3F}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="1"/>
+						<Property Name="Max" Type="Real64" Value="1"/>
+						<Property Name="Min" Type="Real64" Value="0.2"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="ToeSpeed" ID="{6C92985F-B8F0-4919-8AF8-690597E1EB8E}">
+					<PropertyList>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
+						<Property Name="Max" Type="Real64" Value="50"/>
+					</PropertyList>
+				</GameParameter>
+			</ChildrenList>
+		</WorkUnit>
+	</GameParameters>
+</WwiseDocument>
