@@ -224,7 +224,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 56b13e12c097b445bc678d08754fc343
       Path: Events\Default Work Unit\Main\SFXs\Play_Dissolve
-      maxAttenuation: 25
+      maxAttenuation: 30
       maxDuration: 10.655531
       minDuration: 10.655531
     - name: Play_EarthShatter
@@ -270,7 +270,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 7947720f55c4364ea68ffc513499ec34
       Path: Events\Default Work Unit\Main\SFXs\Play_EnergyExplosion
-      maxAttenuation: 25
+      maxAttenuation: 30
       maxDuration: 5.141459
       minDuration: 5.141459
     - name: Play_FireExplosion
@@ -317,8 +317,8 @@ MonoBehaviour:
         guid: 7dc711261486f8408272f06f05898d49
       Path: Events\Default Work Unit\Main\SFXs\Play_FlameThrower
       maxAttenuation: 30
-      maxDuration: -1
-      minDuration: -1
+      maxDuration: 12
+      minDuration: 12
     - name: Play_IceLanceFire
       guid: 93f92b6c06255c4198b7dc0420d2aacf
       id: 3644136192
@@ -405,7 +405,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: d4372e53a7afc9409a1d74c290120c0c
       Path: Events\Default Work Unit\Main\SFXs\Play_Respawn
-      maxAttenuation: 25
+      maxAttenuation: 30
       maxDuration: 5.896924
       minDuration: 5.896924
     - name: Play_RocketTrail

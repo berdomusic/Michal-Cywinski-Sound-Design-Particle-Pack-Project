@@ -19,7 +19,7 @@
 				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="3358743994">
+		<SoundBank Id="3161908922" Language="SFX" Hash="694952865">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -47,7 +47,7 @@
 						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="4046041991" Name="Play_Dissolve" ObjectPath="\Events\Default Work Unit\Main\SFXs\Play_Dissolve" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="10.655531" DurationMax="10.655531">
+				<Event Id="4046041991" Name="Play_Dissolve" ObjectPath="\Events\Default Work Unit\Main\SFXs\Play_Dissolve" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="10.655531" DurationMax="10.655531">
 					<IncludedMemoryFiles>
 						<File Id="87594905" Language="SFX">
 							<ShortName>MoogCrackles.wav</ShortName>
@@ -109,7 +109,7 @@
 						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2543619195" Name="Play_EnergyExplosion" ObjectPath="\Events\Default Work Unit\Main\SFXs\Play_EnergyExplosion" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="5.141459" DurationMax="5.141459">
+				<Event Id="2543619195" Name="Play_EnergyExplosion" ObjectPath="\Events\Default Work Unit\Main\SFXs\Play_EnergyExplosion" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="5.141459" DurationMax="5.141459">
 					<IncludedMemoryFiles>
 						<File Id="24834373" Language="SFX">
 							<ShortName>Tail.wav</ShortName>
@@ -147,11 +147,11 @@
 						<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
 					</AuxBusSends>
 				</Event>
-				<Event Id="2844775840" Name="Play_FlameThrower" ObjectPath="\Events\Default Work Unit\Main\SFXs\Play_FlameThrower" MaxAttenuation="30.000000" DurationType="Infinite">
+				<Event Id="2844775840" Name="Play_FlameThrower" ObjectPath="\Events\Default Work Unit\Main\SFXs\Play_FlameThrower" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="14.000000" DurationMax="14.000000">
 					<IncludedMemoryFiles>
 						<File Id="153515625" Language="SFX">
 							<ShortName>FlameThrower.wav</ShortName>
-							<Path>SFX\FlameThrower_2040A250.wem</Path>
+							<Path>SFX\FlameThrower_EBE1477A.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 					<AuxBusSends>
@@ -224,7 +224,7 @@
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
-				<Event Id="365318234" Name="Play_Respawn" ObjectPath="\Events\Default Work Unit\Main\SFXs\Play_Respawn" MaxAttenuation="25.000000" DurationType="OneShot" DurationMin="5.896924" DurationMax="5.896924">
+				<Event Id="365318234" Name="Play_Respawn" ObjectPath="\Events\Default Work Unit\Main\SFXs\Play_Respawn" MaxAttenuation="30.000000" DurationType="OneShot" DurationMin="5.896924" DurationMax="5.896924">
 					<IncludedMemoryFiles>
 						<File Id="569149924" Language="SFX">
 							<ShortName>RespawnCrackle.wav</ShortName>
