@@ -2929,6 +2929,7 @@
 								</ActorMixer>
 								<BlendContainer Name="EarthShatter" ID="{A76EB95A-117A-44C8-9005-B1DDF8218209}" ShortID="519243422">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="1"/>
 										<Property Name="Color" Type="int16" Value="17"/>
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
@@ -3016,7 +3017,25 @@
 															</CurveUsageInfo>
 														</HighPassFilterUsage>
 														<SpreadUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="Spread" ID="{F85E9D3F-320F-4DC9-A256-99CC2D902584}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="1"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>100</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>30</XPos>
+																			<YPos>66.38298</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
 														</SpreadUsage>
 														<FocusUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
@@ -3873,6 +3892,7 @@
 								</BlendContainer>
 								<BlendContainer Name="RocketTrail" ID="{7A4FBAE7-2A18-458B-9DB1-263DA4E0D335}" ShortID="909107995">
 									<PropertyList>
+										<Property Name="3DSpatialization" Type="int16" Value="2"/>
 										<Property Name="Color" Type="int16" Value="17"/>
 										<Property Name="MakeUpGain" Type="Real64">
 											<ValueList>
@@ -3930,7 +3950,25 @@
 															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
 														</HighPassFilterUsage>
 														<SpreadUsage>
-															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+															<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+																<Curve Name="Spread" ID="{AA55DA22-21B0-4B28-8C18-879BB0687C03}">
+																	<PropertyList>
+																		<Property Name="Flags" Type="int32" Value="1"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>0</XPos>
+																			<YPos>100</YPos>
+																			<Flags>5</Flags>
+																		</Point>
+																		<Point>
+																			<XPos>80</XPos>
+																			<YPos>74.53417</YPos>
+																			<Flags>37</Flags>
+																		</Point>
+																	</PointList>
+																</Curve>
+															</CurveUsageInfo>
 														</SpreadUsage>
 														<FocusUsage>
 															<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
