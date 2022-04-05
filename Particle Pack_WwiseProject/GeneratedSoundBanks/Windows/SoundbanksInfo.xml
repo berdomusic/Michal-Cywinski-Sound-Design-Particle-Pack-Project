@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="12" SoundbankVersion="140">
 	<RootPaths>
-		<ProjectRoot>C:\Projekty Unity\Particle Pack\Particle Pack_WwiseProject\</ProjectRoot>
-		<SourceFilesRoot>C:\Projekty Unity\Particle Pack\Particle Pack_WwiseProject\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Projekty Unity\Particle Pack\Particle Pack_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Projekty Unity\Michal-Cywinski-Sound-Design-Particle-Pack-Project\Particle Pack_WwiseProject\</ProjectRoot>
+		<SourceFilesRoot>C:\Projekty Unity\Michal-Cywinski-Sound-Design-Particle-Pack-Project\Particle Pack_WwiseProject\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Projekty Unity\Michal-Cywinski-Sound-Design-Particle-Pack-Project\Particle Pack_WwiseProject\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Projekty Unity\Particle Pack\Particle Pack_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Projekty Unity\Michal-Cywinski-Sound-Design-Particle-Pack-Project\Particle Pack_WwiseProject\GeneratedSoundBanks\Windows</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -19,7 +19,7 @@
 				<AuxBus Id="348963605" Name="Reverb" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Reverb"/>
 			</IncludedAuxBusses>
 		</SoundBank>
-		<SoundBank Id="3161908922" Language="SFX" Hash="1295168927">
+		<SoundBank Id="3161908922" Language="SFX" Hash="2133366405">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -221,10 +221,6 @@
 						<File Id="1009793064" Language="SFX">
 							<ShortName>Pad.wav</ShortName>
 							<Path>SFX\Pad_D79FB2B7.wem</Path>
-						</File>
-						<File Id="1038689934" Language="SFX">
-							<ShortName>MoogHigh2.wav</ShortName>
-							<Path>SFX\MoogHigh2_D79FB2B7.wem</Path>
 						</File>
 					</IncludedMemoryFiles>
 				</Event>
