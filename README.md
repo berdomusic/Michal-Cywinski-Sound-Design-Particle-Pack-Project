@@ -1,5 +1,10 @@
 # Michal Cywinski Sound Design Particle Pack
  
+ <b>Any comments are very much welcome:)</b>
+ 
+E-mail: kontakt@berdo-music.pl
+Discord: Michał Cywiński#3962
+ 
  Unity ver: 2019.4.33f1
  
  Scene: Assetes/Scenes/SoundDesign
