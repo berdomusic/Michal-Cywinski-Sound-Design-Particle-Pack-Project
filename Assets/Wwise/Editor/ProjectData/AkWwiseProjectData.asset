@@ -317,8 +317,8 @@ MonoBehaviour:
         guid: 7dc711261486f8408272f06f05898d49
       Path: Events\Default Work Unit\Main\SFXs\Play_FlameThrower
       maxAttenuation: 30
-      maxDuration: 12
-      minDuration: 12
+      maxDuration: 14
+      minDuration: 14
     - name: Play_IceLanceFire
       guid: 93f92b6c06255c4198b7dc0420d2aacf
       id: 3644136192
